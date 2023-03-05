@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header, footer{
+    width: 100%;
+    height: 80px;
+    background: rgb(245, 244, 244);
+}
+
+header,footer h1 {
+    padding: 10px 0px 0px 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 3px 0px 0px 50px;
+    overflow: hidden;
+    background-image: url(image/blog-recent-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display: block;
+   
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(0, 138, 218);
+}
+/* dropdown */
+li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: cadetblue;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            text-decoration: none;
+            padding: 12px 16px;
+            text-align: left;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: darkgray;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+/* hero */
+.bg {
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    padding: 150px;
+    background-image: url(image/blog-recent-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(252, 244, 244);
+}
+/* button */
+.button1 {
+    border: 2px solid #4CAF50;
+    color: rgb(250, 249, 249);
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1:hover {
+    opacity: 0.8;
+    background-color: rgb(13, 182, 126);
+}
+/* about */
+section {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: dodgerblue;
+    
+}
+section .s1 .s2 h1 p{
+    padding: 5px;
+}
+.s1{
+    padding: 17px 0px 0px 50px;
+    height: 180px;
+}
+.s2 {
+    width: 50%;
+    height: 180px;
+    float: left;
+    background: aquamarine;
+    padding: 10px 0px 0px 50px;
+
+}
+.s3 {
+    width: 50%;
+    height: 180px;
+    float: right;
+    background: lightblue;
+    padding: 10px 0px 0px 50px;
+}
+/* about section */
+
+
+
+/* service */
+.service {
+    height: 400px;
+    padding: 20px 0px 0px 80px;
+    text-align: center;
+    
+}
+
+.ser1 {
+    padding: 10px 10px;
+    margin: 5px;
+    float: left;
+    background-color: rgba(35, 54, 87, 0.2);
+    background-image: url(image/testimonials-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 30%;
+    
+}
+
+.ser2 {
+    padding: 10px 10px;
+    margin: 5px;
+    float: left;
+    background: rgb(216, 194, 194);
+    background-color: rgba(134, 162, 212, 0.7);
+    height: 300px;
+    width: 30%;
+}
+
+.ser3 {
+    padding: 10px 10px;
+    margin: 5px;
+    float: left;
+    background: rgb(216, 194, 194);
+    height: 300px;
+    width: 30%;
+}
+
+/* portfolio */
+.port {
+    height: 800px;
+    padding: 20px 0px 0px 80px;
+    text-align: center;
+ color: black;
+}
+
+.pt1 {
+    padding: 10px 10px;
+    margin: 5px;
+    float: left;
+    background-image: url(image/service-details-1.jpg);
+    background-color: rgba(134, 162, 212, 0.8);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.pt2 {
+    background-image: url(image/service-details-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 10px;
+    margin: 5px;
+    float: left;
+    height: 300px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.pt3 {
+    background-image: url(image/service-details-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 10px;
+    margin: 5px;
+    float: left;
+    height: 300px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+/* form */
+.form{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    height: 450px;
+    width: 100%;
+    padding: 10px 0px 0px 50px;
+}
+
+form {
+    border: 5px solid #f1f1f1;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #8ebf42;
+    color: white;
+    padding: 14px 0;
+    margin: 10px 0;
+    border: none;
+    cursor: grabbing;
+    width: 100%;
+}
+
+form h1 {
+    text-align: center;
+    font-size: 18;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.formcontainer {
+    text-align: left;
+    margin: 24px 50px 12px;
+}
+
+.container {
+    padding: 16px 0;
+    text-align: left;
+}
+
+span.psw {
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+}
+
+/* Change styles for span on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }}
